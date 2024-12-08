@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    {   "when": { "north": "white" },
+      "apply": { "model": "changecolor:block/face_white", "uvlock": true }
+    },
+    {   "when": { "north": "black" },
+      "apply": { "model": "changecolor:block/face_black", "uvlock": true }
+    },
+    {   "when": { "east": "white" },
+      "apply": { "model": "changecolor:block/face_white", "y": 90, "uvlock": true }
+    },
+    {   "when": { "east": "black" },
+      "apply": { "model": "changecolor:block/face_black", "y": 90, "uvlock": true }
+    },
+    {   "when": { "south": "white" },
+      "apply": { "model": "changecolor:block/face_white", "y": 180, "uvlock": true }
+    },
+    {   "when": { "south": "black" },
+      "apply": { "model": "changecolor:block/face_black", "y": 180, "uvlock": true }
+    },
+    {   "when": { "west": "white" },
+      "apply": { "model": "changecolor:block/face_white", "y": 270, "uvlock": true }
+    },
+    {   "when": { "west": "black" },
+      "apply": { "model": "changecolor:block/face_black", "y": 270, "uvlock": true }
+    },
+    {   "when": { "up": "white" },
+      "apply": { "model": "changecolor:block/face_white", "x": 270, "uvlock": true }
+    },
+    {   "when": { "up": "black" },
+      "apply": { "model": "changecolor:block/face_black", "x": 270, "uvlock": true }
+    },
+    {   "when": { "down": "white" },
+      "apply": { "model": "changecolor:block/face_white", "x": 90, "uvlock": true }
+    },
+    {   "when": { "down": "black" },
+      "apply": { "model": "changecolor:block/face_black", "x": 90, "uvlock": true }
+    }
+  ]
+}
